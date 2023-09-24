@@ -29,3 +29,7 @@ scrape_configs:
       - targets: ["localhost:9090"]
 
 
+
+      - job_name: "expense"
+        static_configs:
+        - targets: [ "172.31.24.22:9090" ]
