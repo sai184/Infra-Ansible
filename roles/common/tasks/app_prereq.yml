@@ -1,3 +1,4 @@
+
 - name:  deleting old  content
   ansible.builtin.file:
     path: "{{ app_loc }}"
