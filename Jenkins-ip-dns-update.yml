@@ -1,5 +1,5 @@
 - name: Update Jenkins Ip in route53
-  hosts: Localhost
+  hosts: all
   tasks:
 
     - name: Update jenkins IP
