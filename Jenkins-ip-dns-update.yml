@@ -2,13 +2,14 @@
   hosts: Localhost
   tasks:
 
-      - name: Update jenkins IP
-        amazon.aws.route53:
-          state: present
-          zone: rdevopsb72online.online
-          record: jenkins.rdevopsb72online.online
-          type: A
-          ttl: 10
-          value: 54.86.50.197
-          wait: true
+    - name: Update jenkins IP
+      amazon.aws.route53:
+        state: present
+        zone: rdevopsb72online.online
+        record: jenkins.rdevopsb72online.online
+        type: A
+        ttl: 10
+        value: 54.86.50.197
+        wait: true
+
 
