@@ -3,7 +3,7 @@
   tasks:
 
     - name: Update jenkins IP
-      amazon.aws.route53:
+      amazon.aws.route53:                         #to update jenkins public IP in dns yy beacuase when we loging to jenkins server public ip is changing
         state: present
         zone: rdevopsb72online.online
         record: jenkins.rdevopsb72online.online
