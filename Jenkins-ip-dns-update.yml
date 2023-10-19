@@ -9,7 +9,7 @@
         record: jenkins.rdevopsb72online.online
         type: A
         ttl: 10
-        value: 54.86.50.197
+        value: 44.211.223.86
         wait: true
 
 
